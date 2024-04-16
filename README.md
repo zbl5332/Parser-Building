@@ -13,7 +13,11 @@ The output matchs the pre-order traversal of the AST for each statement in the p
 language. 
 
 Used a caconical form as below:
+
   For a statement a = 10 + 20
+
   The parser emits : ('=', 'a', ('+', 10, 20))
+
   ('+', 10, 20) - first the operator, then LHS and RHS.
+
   The same logic applies for a = 10 + 20 expression.
