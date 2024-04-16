@@ -12,7 +12,7 @@ The file parser_1.py contains lexer and parser classes which can be used to invo
 The output matchs the pre-order traversal of the AST for each statement in the programming
 language. 
 
-Used a caconical form as below:
+**Used a caconical form as below:**
 
   For a statement a = 10 + 20
 
