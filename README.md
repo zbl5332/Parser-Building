@@ -14,10 +14,10 @@ language.
 
 **Used a caconical form as below:**
 
-  For a statement a = 10 + 20
+&emsp; For a statement a = 10 + 20
 
-  The parser emits : ('=', 'a', ('+', 10, 20))
+&emsp; The parser emits : ('=', 'a', ('+', 10, 20))
 
-  ('+', 10, 20) - first the operator, then LHS and RHS.
+&emsp; ('+', 10, 20) - first the operator, then LHS and RHS.
 
-  The same logic applies for a = 10 + 20 expression.
+&emsp; The same logic applies for a = 10 + 20 expression.
